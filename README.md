@@ -79,9 +79,9 @@ Invoke-WebRequest -Method 'GET' -Uri 'http://localhost:8080/api/v1/calculate' -C
 
 результат
 
-Invoke-WebRequest : Невозможно отправить тело содержимого с данным типом предиката.
-строка:1 знак:1
-+ Invoke-WebRequest -Method 'GET' -Uri 'http://localhost:8080/api/v1/ca ...
-+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ Invoke-WebRequest : Невозможно отправить тело содержимого с данным типом предиката.
+ строка:1 знак:1
+ Invoke-WebRequest -Method 'GET' -Uri 'http://localhost:8080/api/v1/ca ...
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     + CategoryInfo          : NotSpecified: (:) [Invoke-WebRequest], ProtocolViolationException
     + FullyQualifiedErrorId : System.Net.ProtocolViolationException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand
