@@ -26,12 +26,14 @@ go run ./cmd/main.go
 
 значит сервер запустился корректно
 
-после того, как вы запустили сервер, создайте новый терминал(или он сам откроется)( все терминалы в CTRL+SHIFT+5), что отправить запрос
+после того, как вы запустили сервер, создайте новый терминал(или он сам откроется)( все терминалы в CTRL+SHIFT+5), чтобы  отправить запросы
  
  
 5. после того, как вы открыли новый терминал, вы должны прописать:
 
-Invoke-WebRequest -Method 'POST' -Uri 'http://localhost:8080/api/v1/calculate' -ContentType 'application/json' -Body '{"expression":"2+2*2"}' | Select-Object -Expand Content
+Invoke-WebRequest -Method 'POST' -Uri 'http://localhost:8080/api/v1/calculate' -ContentType 'application/json' -Body '{"expression":"2+2*2"}' | Select-Object -Expand Content 
+
+Адресс сервера для POSTMAN localhost:8080/api/v1/calculate
 
 
 Статусы сервера
